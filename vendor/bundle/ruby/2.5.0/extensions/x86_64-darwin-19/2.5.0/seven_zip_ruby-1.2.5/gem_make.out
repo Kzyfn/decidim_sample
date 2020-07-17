@@ -1,0 +1,711 @@
+current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-19pp9fc.rb extconf.rb
+checking for ruby/thread.h... yes
+mkdir -p bin
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C CPP/7zip/Bundles/Format7zFree all
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../myWindows/wine_date_and_time.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../myWindows/myGetTickCount.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/CRC.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/IntToString.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/MyMap.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/MyString.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/MyWindows.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/MyXml.cpp
+../../../Common/MyXml.cpp:10:14: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    c >= 'a' && c <= 'z' ||
+    ~~~~~~~~~^~~~~~~~~~~ ~~
+../../../Common/MyXml.cpp:10:14: note: place parentheses around the '&&' expression to silence this warning
+    c >= 'a' && c <= 'z' ||
+             ^
+    (                   )
+../../../Common/MyXml.cpp:11:14: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    c >= 'A' && c <= 'Z' ||
+    ~~~~~~~~~^~~~~~~~~~~
+../../../Common/MyXml.cpp:11:14: note: place parentheses around the '&&' expression to silence this warning
+    c >= 'A' && c <= 'Z' ||
+             ^
+    (                   )
+../../../Common/MyXml.cpp:12:14: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    c >= '0' && c <= '9' ||
+    ~~~~~~~~~^~~~~~~~~~~
+../../../Common/MyXml.cpp:12:14: note: place parentheses around the '&&' expression to silence this warning
+    c >= '0' && c <= '9' ||
+             ^
+    (                   )
+3 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/StringConvert.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/StringToInt.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/MyVector.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/UTFConvert.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Common/Wildcard.cpp
+../../../Common/Wildcard.cpp:408:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/FileDir.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/FileFind.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/FileIO.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/PropVariant.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/PropVariantUtils.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/Synchronization.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/System.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../../Windows/Time.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/InBuffer.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/InOutTempBuffer.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/CreateCoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/CWrappers.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/FilterCoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/LimitedStreams.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/LockedStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/MethodId.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/MethodProps.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/MemBlocks.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/OffsetStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/OutBuffer.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/OutMemStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/ProgressMt.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/ProgressUtils.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/StreamBinder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/StreamObjects.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/StreamUtils.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Common/VirtThread.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/ArchiveExports.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/DllExports2.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/ApmHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/ArjHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Bz2Handler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/CpioHandler.cpp
+../../Archive/CpioHandler.cpp:341:11: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+      if (!memcmp(_block, NFileHeader::NMagic::kMagic3, 6) == 0)
+          ^                                                ~~
+../../Archive/CpioHandler.cpp:341:11: note: add parentheses after the '!' to evaluate the comparison first
+      if (!memcmp(_block, NFileHeader::NMagic::kMagic3, 6) == 0)
+          ^
+           (                                                   )
+../../Archive/CpioHandler.cpp:341:11: note: add parentheses around left hand side expression to silence this warning
+      if (!memcmp(_block, NFileHeader::NMagic::kMagic3, 6) == 0)
+          ^
+          (                                               )
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/CramfsHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/DebHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/DeflateProps.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/DmgHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/ElfHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/FatHandler.cpp
+../../Archive/FatHandler.cpp:774:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"FATs", kpidNumFats, VT_UI4},
+    ^
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/FlvHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/GzHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/LzhHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/LzmaHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/MachoHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/MbrHandler.cpp
+../../Archive/MbrHandler.cpp:344:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Primary", kpidPrimary, VT_BOOL},
+    ^
+../../Archive/MbrHandler.cpp:345:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Begin CHS", kpidBegChs, VT_BSTR},
+    ^
+../../Archive/MbrHandler.cpp:346:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"End CHS", kpidEndChs, VT_BSTR}
+    ^
+3 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/MslzHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/MubHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/NtfsHandler.cpp
+../../Archive/NtfsHandler.cpp:1283:71: warning: implicit conversion of NULL constant to 'UInt32' (aka 'unsigned int') [-Wnull-conversion]
+    if (!mftRec.Parse(ByteBuf, Header.SectorSizeLog, numSectorsInRec, NULL, 0))
+                ~~~~~                                                 ^~~~
+                                                                      0
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/PeHandler.cpp
+../../Archive/PeHandler.cpp:643:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Image Size", kpidImageSize, VT_UI4},
+    ^
+../../Archive/PeHandler.cpp:644:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Section Alignment", kpidSectAlign, VT_UI4},
+    ^
+../../Archive/PeHandler.cpp:645:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"File Alignment", kpidFileAlign, VT_UI4},
+    ^
+../../Archive/PeHandler.cpp:646:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Code Size", kpidCodeSize, VT_UI4},
+    ^
+../../Archive/PeHandler.cpp:647:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Initialized Data Size", kpidInitDataSize, VT_UI4},
+    ^
+../../Archive/PeHandler.cpp:648:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Uninitialized Data Size", kpidUnInitDataSize, VT_UI4},
+    ^
+../../Archive/PeHandler.cpp:649:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Linker Version", kpidLinkerVer, VT_BSTR},
+    ^
+../../Archive/PeHandler.cpp:650:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"OS Version", kpidOsVer, VT_BSTR},
+    ^
+../../Archive/PeHandler.cpp:651:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Image Version", kpidImageVer, VT_BSTR},
+    ^
+../../Archive/PeHandler.cpp:652:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Subsystem Version", kpidSubsysVer, VT_BSTR},
+    ^
+../../Archive/PeHandler.cpp:653:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Subsystem", kpidSubSystem, VT_BSTR},
+    ^
+../../Archive/PeHandler.cpp:654:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"DLL Characteristics", kpidDllCharacts, VT_BSTR},
+    ^
+../../Archive/PeHandler.cpp:655:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Stack Reserve", kpidStackReserve, VT_UI8},
+    ^
+../../Archive/PeHandler.cpp:656:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Stack Commit", kpidStackCommit, VT_UI8},
+    ^
+../../Archive/PeHandler.cpp:657:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Heap Reserve", kpidHeapReserve, VT_UI8},
+    ^
+../../Archive/PeHandler.cpp:658:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Heap Commit", kpidHeapCommit, VT_UI8},
+    ^
+../../Archive/PeHandler.cpp:659:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Image Base", kpidImageBase, VT_UI8}
+    ^
+17 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/PpmdHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/RpmHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/SplitHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/SwfHandler.cpp
+../../Archive/SwfHandler.cpp:134:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/SquashfsHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/VhdHandler.cpp
+../../Archive/VhdHandler.cpp:436:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Parent", kpidParent, VT_BSTR},
+    ^
+../../Archive/VhdHandler.cpp:439:5: warning: conversion from string literal to 'LPOLESTR' (aka 'wchar_t *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  { L"Saved State", kpidSavedState, VT_BOOL},
+    ^
+2 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/XarHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/XzHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/ZHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/CoderMixer2.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/CoderMixer2MT.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/CrossThreadProgress.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/DummyOutStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/FindSignature.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/InStreamWithCRC.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/ItemNameUtils.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/MultiStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/OutStreamWithCRC.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/OutStreamWithSha1.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/HandlerOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Common/ParseProperties.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zCompressionMode.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zDecode.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zEncode.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zExtract.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zFolderInStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zFolderOutStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zHandlerOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zIn.cpp
+../../Archive/7z/7zIn.cpp:1176:26: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~ ~~
+../../Archive/7z/7zIn.cpp:1176:26: note: place parentheses around the '&&' expression to silence this warning
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+                         ^
+          (                                  )
+../../Archive/7z/7zIn.cpp:1176:65: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+                                              ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+../../Archive/7z/7zIn.cpp:1176:65: note: place parentheses around the '&&' expression to silence this warning
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+                                                                ^
+                                                 (                                   )
+2 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zProperties.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zSpecStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zUpdate.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/7z/7zRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Cab/CabBlockInStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Cab/CabHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Cab/CabHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Cab/CabIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Cab/CabRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Chm/ChmHandler.cpp
+../../Archive/Chm/ChmHandler.cpp:140:9: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+        else if (item.Section < m_Database.Sections.Size())
+        ^
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Chm/ChmHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Chm/ChmIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Chm/ChmRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Com/ComHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Com/ComIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Com/ComRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Hfs/HfsHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Hfs/HfsIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Hfs/HfsRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Iso/IsoHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Iso/IsoHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Iso/IsoIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Iso/IsoRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Nsis/NsisDecode.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Nsis/NsisHandler.cpp
+../../Archive/Nsis/NsisHandler.cpp:148:24: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  if (_archive.IsSolid && _archive.UseFilter || !_archive.IsSolid && useItemFilter)
+      ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~ ~~
+../../Archive/Nsis/NsisHandler.cpp:148:24: note: place parentheses around the '&&' expression to silence this warning
+  if (_archive.IsSolid && _archive.UseFilter || !_archive.IsSolid && useItemFilter)
+                       ^
+      (                                     )
+../../Archive/Nsis/NsisHandler.cpp:148:67: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  if (_archive.IsSolid && _archive.UseFilter || !_archive.IsSolid && useItemFilter)
+                                             ~~ ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../../Archive/Nsis/NsisHandler.cpp:148:67: note: place parentheses around the '&&' expression to silence this warning
+  if (_archive.IsSolid && _archive.UseFilter || !_archive.IsSolid && useItemFilter)
+                                                                  ^
+                                                (                                 )
+../../Archive/Nsis/NsisHandler.cpp:153:26: warning: result of comparison of constant 4 with expression of type 'NMethodType::EEnum' is always true [-Wtautological-constant-out-of-range-compare]
+  method += (methodIndex < kNumMethods) ? kMethods[methodIndex] : kUnknownMethod;
+             ~~~~~~~~~~~ ^ ~~~~~~~~~~~
+3 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Nsis/NsisIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Nsis/NsisRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Rar/RarHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Rar/RarHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Rar/RarIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Rar/RarItem.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Rar/RarVolumeInStream.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Rar/RarRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarHandlerOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarUpdate.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Tar/TarRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Udf/UdfHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Udf/UdfIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Udf/UdfRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Wim/WimHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Wim/WimHandlerOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Wim/WimIn.cpp
+../../Archive/Wim/WimIn.cpp:818:9: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+        else
+        ^
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Wim/WimRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipAddCommon.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipHandler.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipHandlerOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipHeader.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipIn.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipItem.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipOut.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipUpdate.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Archive/Zip/ZipRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/CodecExports.cpp
+../../Compress/CodecExports.cpp:57:34: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if (id != codec.Id || encode && !codec.CreateEncoder || !encode && !codec.CreateDecoder)
+                       ~~ ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+../../Compress/CodecExports.cpp:57:34: note: place parentheses around the '&&' expression to silence this warning
+    if (id != codec.Id || encode && !codec.CreateEncoder || !encode && !codec.CreateDecoder)
+                                 ^
+                          (                             )
+../../Compress/CodecExports.cpp:57:69: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if (id != codec.Id || encode && !codec.CreateEncoder || !encode && !codec.CreateDecoder)
+                                                         ~~ ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+../../Compress/CodecExports.cpp:57:69: note: place parentheses around the '&&' expression to silence this warning
+    if (id != codec.Id || encode && !codec.CreateEncoder || !encode && !codec.CreateDecoder)
+                                                                    ^
+                                                            (                              )
+../../Compress/CodecExports.cpp:59:19: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+        ~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+../../Compress/CodecExports.cpp:59:19: note: place parentheses around the '&&' expression to silence this warning
+    if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+                  ^
+        (                          )
+../../Compress/CodecExports.cpp:59:49: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+                                    ~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../../Compress/CodecExports.cpp:59:49: note: place parentheses around the '&&' expression to silence this warning
+    if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+                                                ^
+                                       (                          )
+../../Compress/CodecExports.cpp:60:33: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../../Compress/CodecExports.cpp:60:33: note: place parentheses around the '&&' expression to silence this warning
+        codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+                                ^
+        (                                   )
+../../Compress/CodecExports.cpp:60:73: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+                                             ~~ ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../../Compress/CodecExports.cpp:60:73: note: place parentheses around the '&&' expression to silence this warning
+        codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+                                                                        ^
+                                                (                                  )
+../../Compress/CodecExports.cpp:76:17: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+      ~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+../../Compress/CodecExports.cpp:76:17: note: place parentheses around the '&&' expression to silence this warning
+  if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+                ^
+      (                          )
+../../Compress/CodecExports.cpp:76:47: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+                                  ~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../../Compress/CodecExports.cpp:76:47: note: place parentheses around the '&&' expression to silence this warning
+  if (!isFilter && codec.IsFilter || isFilter && !codec.IsFilter ||
+                                              ^
+                                     (                          )
+../../Compress/CodecExports.cpp:77:31: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+      ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../../Compress/CodecExports.cpp:77:31: note: place parentheses around the '&&' expression to silence this warning
+      codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+                              ^
+      (                                   )
+../../Compress/CodecExports.cpp:77:71: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+                                           ~~ ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../../Compress/CodecExports.cpp:77:71: note: place parentheses around the '&&' expression to silence this warning
+      codec.NumInStreams != 1 && !isCoder2 || codec.NumInStreams == 1 && isCoder2)
+                                                                      ^
+                                              (                                  )
+10 warnings generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ArjDecoder1.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ArjDecoder2.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Bcj2Coder.cpp
+In file included from ../../Compress/Bcj2Coder.cpp:7:
+In file included from ../../Compress/Bcj2Coder.h:10:
+../../Compress/RangeCoderBit.h:72:54: warning: '&' within '^' [-Wbitwise-op-parentheses]
+    return ProbPrices[(this->Prob ^ ((-(int)symbol)) & (kBitModelTotal - 1)) >> kNumMoveReducingBits];
+                                  ~ ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+../../Compress/RangeCoderBit.h:72:54: note: place parentheses around the '&' expression to silence this warning
+    return ProbPrices[(this->Prob ^ ((-(int)symbol)) & (kBitModelTotal - 1)) >> kNumMoveReducingBits];
+                                                     ^
+                                    (                                      )
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Bcj2Register.cpp
+In file included from ../../Compress/Bcj2Register.cpp:7:
+In file included from ../../Compress/Bcj2Coder.h:10:
+../../Compress/RangeCoderBit.h:72:54: warning: '&' within '^' [-Wbitwise-op-parentheses]
+    return ProbPrices[(this->Prob ^ ((-(int)symbol)) & (kBitModelTotal - 1)) >> kNumMoveReducingBits];
+                                  ~ ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+../../Compress/RangeCoderBit.h:72:54: note: place parentheses around the '&' expression to silence this warning
+    return ProbPrices[(this->Prob ^ ((-(int)symbol)) & (kBitModelTotal - 1)) >> kNumMoveReducingBits];
+                                                     ^
+                                    (                                      )
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BcjCoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BcjRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BitlDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BranchCoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BranchMisc.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BranchRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ByteSwap.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BZip2Crc.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BZip2Decoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BZip2Encoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/BZip2Register.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/CopyCoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/CopyRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Deflate64Register.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/DeflateDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/DeflateEncoder.cpp
+../../Compress/DeflateEncoder.cpp:612:83: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (m_Pos >= kMatchArrayLimit || BlockSizeRes >= blockSize || !m_SecondPass &&
+                                                                 ~~ ~~~~~~~~~~~~~~^~
+../../Compress/DeflateEncoder.cpp:612:83: note: place parentheses around the '&&' expression to silence this warning
+      if (m_Pos >= kMatchArrayLimit || BlockSizeRes >= blockSize || !m_SecondPass &&
+                                                                                  ^
+                                                                    (
+1 warning generated.
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/DeflateRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/DeltaFilter.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Lzma2Decoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Lzma2Encoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Lzma2Register.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ImplodeDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ImplodeHuffmanDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/LzhDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/LzmaDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/LzmaEncoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/LzmaRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/LzOutWindow.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/Lzx86Converter.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/LzxDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/PpmdDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/PpmdEncoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/PpmdRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/PpmdZip.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/QuantumDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ShrinkDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ZlibDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ZlibEncoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Compress/ZDecoder.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/7zAes.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/7zAesRegister.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/HmacSha1.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/MyAes.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/Pbkdf2HmacSha1.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/RandGen.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/Rar20Crypto.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/RarAes.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/Sha1.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/WzAes.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/ZipCrypto.cpp
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../myWindows -I../../../ -I../../../include_windows ../../Crypto/ZipStrong.cpp
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/7zBuf2.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/7zStream.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Aes.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Alloc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Bra.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Bra86.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/BraIA64.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/BwtSort.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Delta.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/HuffEnc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/LzFind.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/LzFindMt.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Lzma2Dec.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Lzma2Enc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/LzmaDec.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/LzmaEnc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/MtCoder.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Ppmd7.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Ppmd7Dec.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Ppmd7Enc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Ppmd8.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Ppmd8Dec.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Ppmd8Enc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Sha256.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Sort.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Threads.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/Xz.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/XzCrc64.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/XzDec.c
+../../../../C/XzDec.c:298:80: warning: implicit conversion from enumeration type 'ECoderFinishMode' to different enumeration type 'ELzmaFinishMode' [-Wenum-conversion]
+  SRes res = Lzma2Dec_DecodeToBuf((CLzma2Dec *)pp, dest, destLen, src, srcLen, finishMode, &status);
+             ~~~~~~~~~~~~~~~~~~~~                                              ^~~~~~~~~~
+1 warning generated.
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/XzEnc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/XzIn.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/7zCrc.c
+clang -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -c -I. -I../../../../C -I../../../myWindows -I../../../include_windows -I../../.. ../../../../C/7zCrcOpt.c
+clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -DENV_MACOSX   -DEXTERNAL_CODECS -DUNICODE -D_UNICODE -bundle -o ../../../../bin/7z.so  wine_date_and_time.o myGetTickCount.o CRC.o IntToString.o MyMap.o MyString.o MyWindows.o MyXml.o StringConvert.o StringToInt.o MyVector.o UTFConvert.o Wildcard.o  FileDir.o FileFind.o FileIO.o PropVariant.o PropVariantUtils.o Synchronization.o System.o Time.o  InBuffer.o InOutTempBuffer.o CreateCoder.o CWrappers.o FilterCoder.o LimitedStreams.o LockedStream.o MethodId.o MethodProps.o MemBlocks.o OffsetStream.o OutBuffer.o OutMemStream.o ProgressMt.o ProgressUtils.o StreamBinder.o StreamObjects.o StreamUtils.o VirtThread.o  ArchiveExports.o DllExports2.o ApmHandler.o ArjHandler.o Bz2Handler.o CpioHandler.o CramfsHandler.o DebHandler.o DeflateProps.o DmgHandler.o ElfHandler.o FatHandler.o FlvHandler.o GzHandler.o LzhHandler.o LzmaHandler.o MachoHandler.o MbrHandler.o MslzHandler.o MubHandler.o NtfsHandler.o PeHandler.o PpmdHandler.o RpmHandler.o SplitHandler.o SwfHandler.o SquashfsHandler.o VhdHandler.o XarHandler.o XzHandler.o ZHandler.o  CoderMixer2.o CoderMixer2MT.o CrossThreadProgress.o DummyOutStream.o FindSignature.o InStreamWithCRC.o ItemNameUtils.o MultiStream.o OutStreamWithCRC.o OutStreamWithSha1.o HandlerOut.o ParseProperties.o  7zCompressionMode.o 7zDecode.o 7zEncode.o 7zExtract.o 7zFolderInStream.o 7zFolderOutStream.o 7zHandler.o 7zHandlerOut.o 7zHeader.o 7zIn.o 7zOut.o 7zProperties.o 7zSpecStream.o 7zUpdate.o 7zRegister.o  CabBlockInStream.o CabHandler.o CabHeader.o CabIn.o CabRegister.o  ChmHandler.o ChmHeader.o ChmIn.o ChmRegister.o  ComHandler.o ComIn.o ComRegister.o  HfsHandler.o HfsIn.o HfsRegister.o  IsoHandler.o IsoHeader.o IsoIn.o IsoRegister.o  NsisDecode.o NsisHandler.o NsisIn.o NsisRegister.o  RarHandler.o RarHeader.o RarIn.o RarItem.o RarVolumeInStream.o RarRegister.o  TarHandler.o TarHandlerOut.o TarHeader.o TarIn.o TarOut.o TarUpdate.o TarRegister.o  UdfHandler.o UdfIn.o UdfRegister.o  WimHandler.o WimHandlerOut.o WimIn.o WimRegister.o  ZipAddCommon.o ZipHandler.o ZipHandlerOut.o ZipHeader.o ZipIn.o ZipItem.o ZipOut.o ZipUpdate.o ZipRegister.o  CodecExports.o ArjDecoder1.o ArjDecoder2.o Bcj2Coder.o Bcj2Register.o BcjCoder.o BcjRegister.o BitlDecoder.o BranchCoder.o BranchMisc.o BranchRegister.o ByteSwap.o BZip2Crc.o BZip2Decoder.o BZip2Encoder.o BZip2Register.o CopyCoder.o CopyRegister.o Deflate64Register.o DeflateDecoder.o DeflateEncoder.o DeflateRegister.o DeltaFilter.o Lzma2Decoder.o Lzma2Encoder.o Lzma2Register.o ImplodeDecoder.o ImplodeHuffmanDecoder.o LzhDecoder.o LzmaDecoder.o LzmaEncoder.o LzmaRegister.o LzOutWindow.o Lzx86Converter.o LzxDecoder.o PpmdDecoder.o PpmdEncoder.o PpmdRegister.o PpmdZip.o QuantumDecoder.o ShrinkDecoder.o ZlibDecoder.o ZlibEncoder.o ZDecoder.o  7zAes.o 7zAesRegister.o HmacSha1.o MyAes.o Pbkdf2HmacSha1.o RandGen.o Rar20Crypto.o RarAes.o Sha1.o WzAes.o ZipCrypto.o ZipStrong.o  7zBuf2.o 7zStream.o Aes.o Alloc.o Bra.o Bra86.o BraIA64.o BwtSort.o Delta.o HuffEnc.o LzFind.o LzFindMt.o Lzma2Dec.o Lzma2Enc.o LzmaDec.o LzmaEnc.o MtCoder.o Ppmd7.o Ppmd7Dec.o Ppmd7Enc.o Ppmd8.o Ppmd8Dec.o Ppmd8Enc.o Sha256.o Sort.o Threads.o Xz.o XzCrc64.o XzDec.o XzEnc.o XzIn.o  7zCrc.o 7zCrcOpt.o  -framework CoreFoundation
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C CPP/7zip/Bundles/Format7zFree clean
+rm -fr bin
+creating Makefile
+
+current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+make "DESTDIR=" clean
+
+current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+make "DESTDIR="
+compiling seven_zip_archive.cpp
+In file included from seven_zip_archive.cpp:10:
+In file included from ./seven_zip_archive.h:27:
+In file included from /Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby.h:33:
+In file included from /Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:2040:
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:47:19: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+void rb_mem_clear(register VALUE*, register long);
+                  ^~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:47:36: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+void rb_mem_clear(register VALUE*, register long);
+                                   ^~~~~~~~~
+seven_zip_archive.cpp:426:15: warning: implicit conversion loses integer precision: 'unsigned long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        idx = NUM2ULONG(index);
+            ~ ^~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:660:22: note: expanded from macro 'NUM2ULONG'
+#define NUM2ULONG(x) RB_NUM2ULONG(x)
+                     ^~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:659:25: note: expanded from macro 'RB_NUM2ULONG'
+#define RB_NUM2ULONG(x) rb_num2ulong_inline(x)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+seven_zip_archive.cpp:482:13: warning: implicit conversion loses integer precision: 'unsigned long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        i = NUM2ULONG(index);
+          ~ ^~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:660:22: note: expanded from macro 'NUM2ULONG'
+#define NUM2ULONG(x) RB_NUM2ULONG(x)
+                     ^~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:659:25: note: expanded from macro 'RB_NUM2ULONG'
+#define RB_NUM2ULONG(x) rb_num2ulong_inline(x)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+seven_zip_archive.cpp:519:52: warning: implicit conversion loses integer precision: 'std::__1::vector<unsigned int, std::__1::allocator<unsigned int> >::size_type' (aka 'unsigned long') to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        ret = m_in_archive->Extract(&list[0], list.size(), 0, extract_callback);
+                            ~~~~~~~           ~~~~~^~~~~~
+seven_zip_archive.cpp:626:35: warning: 'bind2nd<std::__1::not_equal_to<int>, NArchive::NExtract::NOperationResult::(anonymous enum at ../CPP/7zip/Archive/IArchive.h:51:7)>' is deprecated [-Wdeprecated-declarations]
+                             std::bind2nd(std::not_equal_to<Int32>(), kOK))
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:1082:1: note: 'bind2nd<std::__1::not_equal_to<int>, NArchive::NExtract::NOperationResult::(anonymous enum at ../CPP/7zip/Archive/IArchive.h:51:7)>' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX11 inline _LIBCPP_INLINE_VISIBILITY
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config:1054:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config:1043:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+seven_zip_archive.cpp:842:71: warning: implicit conversion loses integer precision: 'std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::size_type' (aka 'unsigned long') to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        ret = m_out_archive->UpdateItems(out_stream, m_rb_update_list.size(), callback_ptr);
+                             ~~~~~~~~~~~             ~~~~~~~~~~~~~~~~~^~~~~~
+seven_zip_archive.cpp:924:47: warning: implicit conversion loses integer precision: 'unsigned long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+            *index_in_archive = (RTEST(idx) ? NUM2ULONG(idx) : (UInt32)(Int32)(-1));
+                              ~               ^~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:660:22: note: expanded from macro 'NUM2ULONG'
+#define NUM2ULONG(x) RB_NUM2ULONG(x)
+                     ^~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:659:25: note: expanded from macro 'RB_NUM2ULONG'
+#define RB_NUM2ULONG(x) rb_num2ulong_inline(x)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+seven_zip_archive.cpp:1060:16: warning: implicit conversion loses integer precision: 'unsigned long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    UInt32 l = NUM2ULONG(level);
+           ~   ^~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:660:22: note: expanded from macro 'NUM2ULONG'
+#define NUM2ULONG(x) RB_NUM2ULONG(x)
+                     ^~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:659:25: note: expanded from macro 'RB_NUM2ULONG'
+#define RB_NUM2ULONG(x) rb_num2ulong_inline(x)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+seven_zip_archive.cpp:1543:48: warning: implicit conversion loses integer precision: 'long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+            *processedSize = (NIL_P(str) ? 0 : RSTRING_LEN(str));
+                           ~                   ^~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:975:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:971:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+seven_zip_archive.cpp:1543:48: warning: implicit conversion loses integer precision: 'long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+            *processedSize = (NIL_P(str) ? 0 : RSTRING_LEN(str));
+                           ~                   ^~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:976:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+seven_zip_archive.cpp:1674:33: warning: implicit conversion loses integer precision: 'std::__1::streamsize' (aka 'long') to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        *processedSize = m_file.gcount();
+                       ~ ~~~~~~~^~~~~~~~
+seven_zip_archive.cpp:1695:34: warning: implicit conversion loses integer precision: 'unsigned long' to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                *processedSize = NUM2ULONG(len);
+                               ~ ^~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:660:22: note: expanded from macro 'NUM2ULONG'
+#define NUM2ULONG(x) RB_NUM2ULONG(x)
+                     ^~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:659:25: note: expanded from macro 'RB_NUM2ULONG'
+#define RB_NUM2ULONG(x) rb_num2ulong_inline(x)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+In file included from seven_zip_archive.cpp:10:
+In file included from ./seven_zip_archive.h:39:
+./util_common.h:370:9: warning: destructor called on non-final 'SevenZip::SevenZipReader' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+        p->~T();
+        ^
+./util_common.h:384:12: note: in instantiation of function template specialization 'RubyCppUtil::wrapFree<SevenZip::SevenZipReader>' requested here
+    free = wrapFree<T>;
+           ^
+./util_common.h:424:13: note: in instantiation of function template specialization 'RubyCppUtil::wrapAlloc<SevenZip::SevenZipReader>' requested here
+    alloc = wrapAlloc<T>;
+            ^
+seven_zip_archive.cpp:1802:11: note: in instantiation of function template specialization 'RubyCppUtil::rb_define_wrapped_cpp_class_under<SevenZip::SevenZipReader>' requested here
+    cls = rb_define_wrapped_cpp_class_under<SevenZipReader>(mod, "SevenZipReader", rb_cObject);
+          ^
+./util_common.h:370:13: note: qualify call to silence this warning
+        p->~T();
+            ^
+            SevenZip::SevenZipReader::
+./util_common.h:370:9: warning: destructor called on non-final 'SevenZip::SevenZipWriter' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+        p->~T();
+        ^
+./util_common.h:384:12: note: in instantiation of function template specialization 'RubyCppUtil::wrapFree<SevenZip::SevenZipWriter>' requested here
+    free = wrapFree<T>;
+           ^
+./util_common.h:424:13: note: in instantiation of function template specialization 'RubyCppUtil::wrapAlloc<SevenZip::SevenZipWriter>' requested here
+    alloc = wrapAlloc<T>;
+            ^
+seven_zip_archive.cpp:1823:11: note: in instantiation of function template specialization 'RubyCppUtil::rb_define_wrapped_cpp_class_under<SevenZip::SevenZipWriter>' requested here
+    cls = rb_define_wrapped_cpp_class_under<SevenZipWriter>(mod, "SevenZipWriter", rb_cObject);
+          ^
+./util_common.h:370:13: note: qualify call to silence this warning
+        p->~T();
+            ^
+            SevenZip::SevenZipWriter::
+In file included from seven_zip_archive.cpp:10:
+In file included from ./seven_zip_archive.h:38:
+In file included from ./mutex.h:7:
+./posix/mutex.h:39:17: warning: private field 'm_name' is not used [-Wunused-private-field]
+    const char *m_name;
+                ^
+In file included from seven_zip_archive.cpp:10:
+./seven_zip_archive.h:496:18: warning: private field 'm_archive' is not used [-Wunused-private-field]
+    ArchiveBase *m_archive;
+                 ^
+17 warnings generated.
+compiling util_common.cpp
+In file included from util_common.cpp:4:
+In file included from ./util_common.h:10:
+In file included from /Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby.h:33:
+In file included from /Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:2040:
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:47:19: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+void rb_mem_clear(register VALUE*, register long);
+                  ^~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:47:36: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+void rb_mem_clear(register VALUE*, register long);
+                                   ^~~~~~~~~
+2 warnings generated.
+compiling utils.cpp
+In file included from utils.cpp:2:
+In file included from ./utils.h:14:
+In file included from /Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby.h:33:
+In file included from /Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:2040:
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:47:19: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+void rb_mem_clear(register VALUE*, register long);
+                  ^~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:47:36: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+void rb_mem_clear(register VALUE*, register long);
+                                   ^~~~~~~~~
+utils.cpp:473:40: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+    BSTR ret = SysAllocStringLen(NULL, len);
+               ~~~~~~~~~~~~~~~~~       ^~~
+utils.cpp:559:65: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+        prop->bstrVal = ConvertStringToBstr(RSTRING_PTR(value), RSTRING_LEN(value));
+                        ~~~~~~~~~~~~~~~~~~~                     ^~~~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:975:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:971:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.cpp:559:65: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+        prop->bstrVal = ConvertStringToBstr(RSTRING_PTR(value), RSTRING_LEN(value));
+                        ~~~~~~~~~~~~~~~~~~~                     ^~~~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:976:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+utils.cpp:562:23: warning: implicit conversion loses integer precision: 'unsigned long' to 'ULONG' (aka 'unsigned int') [-Wshorten-64-to-32]
+        prop->ulVal = NUM2ULONG(value);
+                    ~ ^~~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:660:22: note: expanded from macro 'NUM2ULONG'
+#define NUM2ULONG(x) RB_NUM2ULONG(x)
+                     ^~~~~~~~~~~~~~~
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/ruby.h:659:25: note: expanded from macro 'RB_NUM2ULONG'
+#define RB_NUM2ULONG(x) rb_num2ulong_inline(x)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+6 warnings generated.
+linking shared-object seven_zip_ruby/seven_zip_archive.bundle
+
+current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 seven_zip_archive.bundle ./.gem.20200717-66042-1w423we/seven_zip_ruby
