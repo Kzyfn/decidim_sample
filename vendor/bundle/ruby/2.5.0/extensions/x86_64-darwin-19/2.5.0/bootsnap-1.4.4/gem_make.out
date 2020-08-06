@@ -1,15 +1,15 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-13h95wp.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-1jsws7h.rb extconf.rb
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
 make "DESTDIR="
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200717-66042-r4xn3v/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200805-74305-tp282j/bootsnap

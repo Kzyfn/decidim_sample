@@ -1,5 +1,5 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-14nmim0.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-btlcwf.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/local/bin/pg_config
 checking for libpq-fe.h... yes
@@ -19,10 +19,10 @@ checking for C99 variable length arrays... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
 make "DESTDIR="
 compiling gvl_wrappers.c
 compiling pg.c
@@ -130,6 +130,6 @@ util.c:119:24: warning: implicit conversion loses integer precision: 'long' to '
 1 warning generated.
 linking shared-object pg_ext.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/pg-1.1.4/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20200717-66042-1v98nll
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20200805-74305-j4l6pt

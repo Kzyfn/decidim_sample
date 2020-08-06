@@ -1,5 +1,5 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-kfw5mw.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-1om11k5.rb extconf.rb
 checking for -licui18n... yes
 checking for unicode/ucnv.h... yes
 checking for -lz... yes
@@ -7,10 +7,10 @@ checking for -licuuc... yes
 checking for -licudata... yes
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
 make "DESTDIR="
 compiling converter.c
 converter.c:23:12: warning: implicit conversion loses integer precision: 'long' to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
@@ -82,6 +82,6 @@ transliterator.cpp:106:39: warning: implicit conversion loses integer precision:
 4 warnings generated.
 linking shared-object charlock_holmes/charlock_holmes.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 charlock_holmes.bundle ./.gem.20200717-66042-d5pdr/charlock_holmes
+/usr/bin/install -c -m 0755 charlock_holmes.bundle ./.gem.20200805-74305-n999k1/charlock_holmes

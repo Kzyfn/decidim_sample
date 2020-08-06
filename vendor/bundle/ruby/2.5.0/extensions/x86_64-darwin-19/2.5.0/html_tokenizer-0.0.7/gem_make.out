@@ -1,11 +1,11 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-1t5yomc.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-1nuiul7.rb extconf.rb
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
 make "DESTDIR="
 compiling html_tokenizer.c
 compiling parser.c
@@ -20,6 +20,6 @@ tokenizer.c:667:15: warning: unused variable 'old' [-Wunused-variable]
 1 warning generated.
 linking shared-object html_tokenizer_ext.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/html_tokenizer-0.0.7/ext/html_tokenizer_ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 html_tokenizer_ext.bundle ./.gem.20200717-66042-1j7qyfy
+/usr/bin/install -c -m 0755 html_tokenizer_ext.bundle ./.gem.20200805-74305-1ybdqoi

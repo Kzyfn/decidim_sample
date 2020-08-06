@@ -1,15 +1,15 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-u8wkjz.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-16bqgq.rb extconf.rb
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR="
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200717-66042-1oheyzk
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200805-74305-13i6b6m

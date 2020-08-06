@@ -1,5 +1,5 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-19pp9fc.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-1runogp.rb extconf.rb
 checking for ruby/thread.h... yes
 mkdir -p bin
 /Applications/Xcode.app/Contents/Developer/usr/bin/make -C CPP/7zip/Bundles/Format7zFree all
@@ -511,10 +511,10 @@ clang++ -O -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_REENTRANT -DENV_UNIX  -
 rm -fr bin
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
 make "DESTDIR="
 compiling seven_zip_archive.cpp
 In file included from seven_zip_archive.cpp:10:
@@ -706,6 +706,6 @@ utils.cpp:562:23: warning: implicit conversion loses integer precision: 'unsigne
 6 warnings generated.
 linking shared-object seven_zip_ruby/seven_zip_archive.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/seven_zip_ruby-1.2.5/ext/seven_zip_ruby
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 seven_zip_archive.bundle ./.gem.20200717-66042-1w423we/seven_zip_ruby
+/usr/bin/install -c -m 0755 seven_zip_archive.bundle ./.gem.20200805-74305-c4fq74/seven_zip_ruby

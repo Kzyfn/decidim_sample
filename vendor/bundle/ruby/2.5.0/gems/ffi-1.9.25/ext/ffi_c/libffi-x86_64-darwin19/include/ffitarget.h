@@ -1,1 +1,1 @@
-/Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c/libffi/src/x86/ffitarget.h
+/Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c/libffi/src/x86/ffitarget.h

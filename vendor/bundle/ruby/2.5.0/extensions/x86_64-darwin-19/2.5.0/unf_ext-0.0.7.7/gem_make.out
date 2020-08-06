@@ -1,12 +1,12 @@
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
-/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200717-66042-ly2p7b.rb extconf.rb
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/Users/kazuya_yufune/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20200805-74305-h9kqca.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
 make "DESTDIR=" clean
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
 make "DESTDIR="
 compiling unf.cc
 In file included from unf.cc:1:
@@ -33,6 +33,6 @@ In file included from unf.cc:1:
 5 warnings generated.
 linking shared-object unf_ext.bundle
 
-current directory: /Users/kazuya_yufune/decidim/decidim_application/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+current directory: /Users/kazuya_yufune/decidim/decidim_sample/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20200717-66042-foxif0
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20200805-74305-1610r1k
